@@ -1,0 +1,39 @@
+1)Download git from,
+https://git-scm.com/download/win
+
+2)Complete installation process
+
+3)Add system variables,path
+GIT-HOME   C:\Program Files\Git
+Add below in path
+C:\Program Files\Git\cmd
+C:\Program Files\Git\bin
+
+4)Give (git --version) command in command prompt to get the git version
+
+5) Goto gothub and click on code button to copy the ssh key
+
+6) go to any path, open cmd prompt, give git clone <sshkey> command
+   cloned in F drive
+
+7) Copy any programs(if we have) else start from begining(creating maven project in same path) 
+
+8) To know status use git status
+
+9) first we need to add the files to staging >>> then commit >>> then push
+   git add <file>   >>>git commit -m "Message"   >>> git push
+   Now git will be updated with all the files
+
+
+Import maven project (if exists)>>> existing maven project   >>> build project>>> mvn clean install -U
+
+
+To revert latest commit >>> git revert <Address of commit>    or simply--->>>   git revert HEAD
+
+Here HEAD is nothing but the reference of latest commit
+
+Sequence of steps for reverting a commit:
+git revert <Address of commit>
+git commit -m "Message"
+git push
+
