@@ -1,4 +1,4 @@
-package TestNgNew;
+//package TestNgNew;
 
 public class TryCatchBlock {
 
