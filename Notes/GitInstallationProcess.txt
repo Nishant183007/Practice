@@ -37,3 +37,10 @@ git revert <Address of commit>
 git commit -m "Message"
 git push
 
+
+
+Create a new branch:
+git branch NewBranch
+git checkout NewBranch
+git push --set-upstream origin NewBranch
+
